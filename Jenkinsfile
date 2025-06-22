@@ -34,6 +34,7 @@ pipeline {
 
         stage('Terraform Apply') {
             steps {
+                input message: "确认部署?", ok: "执行 apply"
                 sh 'terraform apply tfplan'
             }
         }
