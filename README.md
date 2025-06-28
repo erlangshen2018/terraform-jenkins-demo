@@ -12,6 +12,7 @@
 2. 修改 terraform.tfvars 填写你自己的参数
 3. 在 Jenkins 中设置 AWS 凭证，并执行流水线
    
+   
 
 
 
